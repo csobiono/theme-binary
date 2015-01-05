@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 @import url(http://fonts.googleapis.com/css?family=Aladin);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
 /**
  * Page styles
  */
@@ -2807,6 +2808,7 @@ body {
 }
 .post-content {
   display: block;
+  font-family: 'Josefin Slab', Georgia, serif;
   /* from elements.less in assets */
 }
 .post-content ul,
