@@ -2641,8 +2641,6 @@ body {
   margin-bottom: 1.875rem;
 }
 .site-header {
-  background: #ffffff;
-  border-bottom: solid #d7d7d7;
   border-bottom-width: 2px;
   border-bottom-width: 0.125rem;
   /* Site nav */
@@ -3068,8 +3066,8 @@ body {
   padding: 15px;
   padding: 0.9375rem;
   font-weight: normal;
-  color: #252525;
-  background: #ffffff;
+  color: #373B44;
+  background: #E1B866;
   text-align: center;
 }
 .widget-title a {
