@@ -70,7 +70,7 @@
                   <h2 class="post-title">
                     <a href="{{ post.permalink }}">{{ post.title }}</a>
                   </h2>
-                  <div class="post-metadata">
+                  <!--<div class="post-metadata">
                     <div class="left">
                       <p class="post-byline">Published by {{ site.author }}</p>
                       <p><time datetime="{{ post.created_at }}" class="post-date">{{ post.created_at|date_format }}</time></p>
@@ -81,7 +81,7 @@
                       </p>
                       <p><a href="{{ post.permalink }}" class="post-permalink">Permalink</a></p>
                     </div>
-                  </div>
+                  </div>-->
                 </header>
                 <div class="post-body">
                   <div class="post-content">
@@ -97,6 +97,11 @@
                     {{- post.tags|format_tags(humanize=True) -}}
                   </div>
                   {% endif %}
+                </div>
+				<div class="post-metadata">
+                    <div class="left">
+                      <p>POSTED ON <time datetime="{{ post.created_at }}" class="post-date">{{ post.created_at|date_format }}</time></p>
+                    </div>
                 </div>
               </article>
             {% endfor %}
@@ -191,7 +196,7 @@
           <div class="site-footer">
             <p>All rights Reserved &copy; <a href="/">{{ site.name }}</a>.</p>
             <br />
-            <p>Theme inspired by <a href="http://www.fabthemes.com/binary/" target="_blank">Fabthemes</a> and edited by Clang2 | Powered by <a href="http://postach.io/">Postach.io</a></p>
+            <p>Theme inspired by <a href="http://www.fabthemes.com/binary/" target="_blank">Fabthemes</a> | Powered by <a href="http://postach.io/">Postach.io</a></p>
           </div>
         </div>
         <div class="four columns">
