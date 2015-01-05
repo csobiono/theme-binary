@@ -2356,7 +2356,7 @@ body {
   font-family: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
-  background-color: #f3f0eb;
+  background-color: #9CDDC8;
 }
 /**
  * Global
@@ -2656,7 +2656,7 @@ body {
   text-transform: uppercase;
 }
 .site-header .header-top h1 a {
-  color: #111111;
+  color: #633D2E;
 }
 .site-header .header-top h2 {
   padding-top: 5px;
@@ -2712,8 +2712,8 @@ body {
 .blog-page {
   padding: 30px;
   padding: 1.875rem;
-  background-color: #ffffff;
-  border-bottom: solid #d7d7d7;
+  background-color: #F7AF63;
+  border-bottom: solid #633D2E;
   border-bottom-width: 2px;
   border-bottom-width: 0.125rem;
 }
@@ -2746,7 +2746,7 @@ body {
 .post-title {
   margin-bottom: 5px;
   margin-bottom: 0.3125rem;
-  color: #111111;
+  color: #633D2E;
 }
 .post-title:after {
   visibility: hidden;
