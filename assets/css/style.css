@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url('http://fonts.googleapis.com/css?family=Aladin);
 /**
  * Page styles
  */
@@ -2369,7 +2370,8 @@ h5,
 h6 {
   margin: 8px 0;
   color: #636363;
-  font-family: 'EB Garamond', Georgia, Times, serif;
+  /*font-family: 'EB Garamond', Georgia, Times, serif;*/
+  font-family: 'Aladin', Georgia, Time, serif;
   line-height: 1.4;
   font-weight: normal;
 }
